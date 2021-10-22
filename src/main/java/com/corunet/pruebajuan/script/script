@@ -1,0 +1,13 @@
+insert into PRICES values(1, 1, 'EUR',  '2020-12-31-23.59.59', 35.50,  0, 35455,  '2020-06-14-00.00.00');
+insert into PRICES values(2, 1, 'EUR',  '2020-06-14-18.30.00', 25.45,  1, 35455,  '2020-06-14-15.00.00');
+insert into PRICES values(3, 1, 'EUR',  '2020-06-15-11.00.00', 30.50,  1, 35455,  '2020-06-15-00.00.00');
+insert into PRICES values(4, 1, 'EUR',  '2020-12-31-23.59.59', 38.95,  1, 35455,  '2020-06-15-16.00.00');
+
+*Para acceder a la consola de la bbdd*
+http://localhost:8080/h2-console
+user: corunet
+Pass: corunet
+
+*Url de ejemplo*
+Obtener todos los productos: http://localhost:8080/shop/products
+Obterne productos con filtro: http://localhost:8080/shop/products/filter?date=2020-06-15-00.00.00&productId=35455&brandId=1
