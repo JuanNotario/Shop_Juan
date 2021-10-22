@@ -1,7 +1,9 @@
 package com.corunet.pruebajuan.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -13,6 +15,8 @@ import java.io.Serializable;
 @Table(name = "prices")
 @Data
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Product implements Serializable {
     @Column(name = "brand_id")
     private int brandId;

@@ -5,6 +5,7 @@ insert into PRICES values(4, 1, 'EUR',  '2020-12-31-23.59.59', 38.95,  1, 35455,
 
 *Para acceder a la consola de la bbdd*
 http://localhost:8080/h2-console
+JBDC URL: jdbc:h2:mem:pricesdb
 user: corunet
 Pass: corunet
 
